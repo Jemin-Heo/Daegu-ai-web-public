@@ -1,0 +1,47 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Number</h1>
+        <script>
+            console.log(1); //정수 
+            console.log(1.1); //실수
+
+            //operator. 연산자
+            console.log(1+1); //2
+            console.log(2-1); //1
+            console.log(2*2); //4
+            console.log(4/2); //2
+
+            //함수 
+            console.log(Math.random());  // 랜덤한 수 출력
+            console.log(Math.floor(Math.random()*100)); //랜덤한 정수 출력
+            console.log(Math.floor(1.9)); //1
+       </script>
+
+        <h1>문자열(String)</h1>
+        <script>
+            console.log('Hello, world');
+            console.log("Hello, World");
+            console.log("hello \
+            world");
+            console.log(`hello 
+            world`);
+             // ` (백틱) = \ (역슬래시) 같다. 줄바꿈이 적용이 된다. 
+             // 차이점으로는 백틱은 문자의 앞밖에 써야하고 역슬래시는 줄이 바뀌는곳에 써야한다.
+             console.log("hello \ world");
+             console.log(`hello world`);
+
+
+             console.log('Hello, world.'.length);
+             console.log('hell world'.replace('hell','hello')); // replace 로 해당 문자를 바꾼다.
+             console.log('hello'+'world');
+             console.log('1'+'1');
+             //문자와 문자 사이에 있는 더하기는 결합이다, 숫자와 숫자 사이에 있는 더하기는 연산이다.
+             // '1'+ '1' = 11 ,  1 + 1 = 2
+
+
+        </script>
+    </body>
+</html>

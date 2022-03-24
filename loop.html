@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>배열(Array)</h1>
+        <script>
+            var topic1 ='egoing';
+            var member1 ='egoing';
+            var topic2 ='css';
+            var member2 ='leez';
+            var topic3 ='js';
+            var member3 ='duru';
+
+            topics = ['html','css','js'];
+            members = ['egoing' , 'leez' , 'duru'];
+
+            console.log(topics.length); //토픽스 안 내용물의 수를 출력
+            console.log(topics[0]); //0번째 원소를 출력한다
+
+        </script>
+        <h1>반복문(Loop)</h1>
+        <script>
+            console.log(1);
+            for(let i=0; i<3 ;i=i+1  ){
+                console.log(i*100);
+                console.log(3);
+            }  // 코드가 실행이 될때 다음의 i는 i+1이 된다. i가 i<3가 false 가 될때까지
+            console.log(4);
+        </script>
+        <h1>Array + Loop</h1>
+        <script>
+            let topics = ['html','css','js'];
+            for(let i=0; i<3 ; i=i+1){
+                document.write('<li>'+topics[i]+'</li>');
+            }
+        </script>
+    </body>
+</html>

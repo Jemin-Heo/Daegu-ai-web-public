@@ -1,0 +1,14 @@
+h1{
+    border-bottom:10px solid red !important;  
+    /* !important 명령어를 넣으면 가장 최우선으로 바뀐다 */
+    padding:10px
+
+}
+#container{
+    display:grid;
+    grid-template-columns: 200px 100px;
+                }
+/* body{
+    background-image: url("https://picsum.photos/300/400");
+    background-size:cover;
+    } */

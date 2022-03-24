@@ -12,9 +12,7 @@
     }
     a{text-decoration-line:none;
     }
-    .pr3{
-        border-top:20px solid red;
-        }
+    
     #ddisqus_thread{
         border-top:20px solid blue;
     }
@@ -35,6 +33,9 @@
             }
         } */
     h1{font-family: 'Lobster', cursive;}
+    .pr3{
+        border-top:20px solid red;
+        }
     .pr4{
         border:10px solid green;
         margin:10px;
@@ -58,6 +59,25 @@
 </head>
 
 <body>
+   
+
+
+    <input type="button" id="dnbtn" value="night" onclick="
+    let button = document.querySelector('#dnbtn')
+    if(button.value === 'night'){document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    document.querySelector('a').style.color ='white';
+    
+    button.value = 'light'}
+
+    else{document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    document.querySelector('a').style.color ='black';
+
+    button.value = 'night'}">
+
+       
+
     <input type="button" value="night mode" onclick="document.querySelector('body').style.backgroundColor = 'black';
     document.querySelector('body').style.color = 'white';";> 
     <input type="button" value="day mode" onclick="document.querySelector('body').style.backgroundColor = 'white';
@@ -74,7 +94,7 @@
         <h2>Welcome!</h2> 
         Hello <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">WEB</a></div>
 
-        <div><img src="https://images.unsplash.com/photo-1590698933947-a202b069a861?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c21pbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt="smile" >
+        <div><img src="https://picsum.photos/400/500" alt="random" >
         </div>
         </div>
         </div>
