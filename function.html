@@ -1,0 +1,54 @@
+<html>
+    <body>
+        <h1>function</h1>
+        <script>
+            function abc()
+            {console.log('a');
+            console.log('b');
+            console.log('c');}
+
+            console.log(1);
+            console.log(2);
+            abc();
+            console.log(3);
+            abc();
+            console.log(4);
+            abc();
+            console.log(5);
+            abc();
+            console.log(6);
+            console.log(7);
+
+        </script>
+
+        <h1>VAT</h1>
+        <script>
+            function 부가세계산(가격, 부가세율) { //가격,부가세율: 매개변수, parameter.
+            
+            let 부가세 = 가격 * 부가세율
+            return 부가세;    //부가세가 console.log 를 포함하지않는 부가세 자체만의 한가지 함수가 되었다.
+            }
+            console.log(1);
+            console.log(2);
+            부가세계산(2000,0.2); //2000 ,0.2: 인자 , argument, 입력값
+            console.log(3);
+            
+
+            
+            console.log(부가세계산(2000, 0.2)); 
+
+            
+        </script>
+        <h1>SUM</h1>
+        <script>
+            function sum(val1, val2){
+                // alert(1); 주석없이 작동시 실행된다
+                return val1+val2;   //return 은 함수의종료조건으로 이 후의 코드는 실행되지않는다.
+                // alert(2); 주석없이 작동시 실행되지않는다.
+            }
+            alert(sum(100,200)*10 );
+        </script>
+
+
+    </body>
+</html>

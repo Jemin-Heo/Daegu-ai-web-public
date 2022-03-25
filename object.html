@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>object</title>
+    </head>
+    <body>
+        <h1>object</h1>
+        <script>
+            let student = ['egoing','duru']
+            console.log(student[0],student[1]);
+
+            let member = {developer:'egoing', designer:'duru'}; // 0:developer , 1:designer. 대괄호와 다르게 중괄호를 사용
+            console.log(member.developer,member.designer);
+
+            let person = {name:'egoing',city:'seoul' , job:'developer'};
+            console.log(person.name,person.citr,person.job);
+
+            let MyMath = {}
+            MyMath.PI = 3.14;
+            MyMath.sum = function(val1, val2){
+                return val1+val2;
+            }
+            console.log(MyMath.PI);
+            console.log(MyMath.sum(10,20));
+        </script>
+    </body>
+</html>
